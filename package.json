@@ -1,0 +1,39 @@
+{
+  "name": "mongodbjs",
+  "version": "1.0.0",
+  "description": "MongoDB Node.js GraphQL template",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bunderwood101/Mongo_Node_GraphQL.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Node.js",
+    "GraphQL",
+    "template"
+  ],
+  "author": "Ben Underwood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bunderwood101/Mongo_Node_GraphQL/issues"
+  },
+  "homepage": "https://github.com/bunderwood101/Mongo_Node_GraphQL#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
